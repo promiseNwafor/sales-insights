@@ -2,26 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 def load_data_to_db():
-    # # Step 1: Read the dataset
-    # file_path = 'retail_sales_dataset.csv'
-    # data = pd.read_csv(file_path)
-
-    # # Step 2: Process the data (if needed)
-    # # For example, ensure the 'Date' column is in datetime format
-    # data['Date'] = pd.to_datetime(data['Date'])
-
-    # # Step 3: Connect to PostgreSQL database
-    # DATABASE_URL = 'postgresql://postgres:pzITdqVKbOlhhxCqfxxdxjliSnTgtSAB@autorack.proxy.rlwy.net:43078/railway'  
-    # engine = create_engine(DATABASE_URL)
-
-    # # Step 4: Create a table and insert data
-    # table_name = 'sales_data'
-    # data.to_sql(table_name, engine, if_exists='replace', index=False)
-
-    # print(f"Data successfully inserted into the {table_name} table.")
-    
     # Step 1: Read the dataset
-    
     file_path = 'retail_sales_dataset.csv'
     data = pd.read_csv(file_path)
 
@@ -72,6 +53,7 @@ def load_data_to_db():
     sales_by_gender_category.to_sql('sales_by_gender_category', engine, if_exists='replace', index=False)
 
     print("======= Data successfully transformed and inserted into the database =======")
-    
-    
+
+# Call the function to load data to the database
 load_data_to_db()
+
