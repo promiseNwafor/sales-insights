@@ -32,6 +32,7 @@ The Sales Insights Dashboard is a data engineering project designed to provide c
 - **Gunicorn**: WSGI HTTP server for running the Dash application.
 
 ## Project Structure
+```
 sales-insights/
 │
 ├── etl_process.py          # ETL script for data extraction, transformation, and loading
@@ -40,6 +41,7 @@ sales-insights/
 ├── Procfile                # Heroku process file
 ├── retail_sales_dataset.csv # Sample dataset
 └── README.md               # Project documentation
+```
 
 ## Getting Started
 ### Prerequisites
@@ -80,9 +82,9 @@ sales-insights/
 2. Open your web browser and navigate to http://127.0.0.1:8050/ to view the dashboard.
 
 ## Usage
-- **Sales by Gender: Use the bar chart to compare total products sold and total sales revenue by gender.**
-- **Sales by Product Category: Use the bar charts to compare total sales revenue and total products sold by product category.**
-- **Interactive Filters: Use the dropdowns and date picker to filter the data displayed in the visualizations and data table.**
+- **Sales by Gender**: Use the bar chart to compare total products sold and total sales revenue by gender.
+- **Sales by Product Category**: Use the bar charts to compare total sales revenue and total products sold by product category.
+- **Interactive Filters**: Use the dropdowns and date picker to filter the data displayed in the visualizations and data table.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
