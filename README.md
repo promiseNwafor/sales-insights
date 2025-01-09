@@ -86,6 +86,10 @@ sales-insights/
 - **Sales by Product Category**: Use the bar charts to compare total sales revenue and total products sold by product category.
 - **Interactive Filters**: Use the dropdowns and date picker to filter the data displayed in the visualizations and data table.
 
+<img width="1433" alt="Screenshot 2025-01-09 at 04 25 08" src="https://github.com/user-attachments/assets/660ae0fb-3f76-4fcc-9818-03bfa258c0dc" />
+<img width="1437" alt="Screenshot 2025-01-09 at 04 24 49" src="https://github.com/user-attachments/assets/5fe38237-58f9-44db-b640-6ccd45a4d131" />
+
+
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
